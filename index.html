@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor - Kursy Walut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="top-bar">
+                <div class="logo">EXCHANGE</div>
+                <div class="address">WOJSKA POLSKIEGO 207</div>
+            </div>
+            <div class="info-bar">
+                <div id="date-time"></div>
+                <div id="weather"></div>
+            </div>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Symbol</th>
+                        <th>Nazwa waluty</th>
+                        <th>Kupno</th>
+                        <th>Sprzedaż</th>
+                    </tr>
+                </thead>
+                <tbody id="currency-table">
+                    <!-- Dane walut zostaną wstawione tutaj przez JavaScript -->
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <div class="marquee-container">
+                <div class="marquee-text">KANTOR</div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
