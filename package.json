@@ -1,0 +1,48 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.example.kantor",
+    "productName": "Kantor Walutowy",
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "style.css",
+      "script.js",
+      "flags/"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "directories": {
+      "output": "release"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateuszC05/cantor-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MateuszC05/cantor-test/issues"
+  },
+  "homepage": "https://github.com/MateuszC05/cantor-test#readme",
+  "devDependencies": {
+    "electron": "^39.2.3",
+    "electron-builder": "^26.0.12"
+  }
+}
