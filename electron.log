@@ -1,0 +1,7 @@
+
+> app@1.0.0 start
+> electron .
+
+[5556:1125/184203.109977:ERROR:ui/ozone/platform/x11/ozone_platform_x11.cc:249] Missing X server or $DISPLAY
+[5556:1125/184203.110077:ERROR:ui/aura/env.cc:257] The platform failed to initialize.  Exiting.
+/app/node_modules/electron/dist/electron exited with signal SIGSEGV
